@@ -346,11 +346,17 @@ header {
 .computers-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 15px;
 }
 
 .computers-item {
-  border: solid 1px #ececec;
+  border: solid 2px #ececec;
+  border-radius: 10px;
+}
+
+.computers-item:hover {
+  border: solid 2px #0c061a;
+  transition: all 0.5s ease-in 0s;
 }
 
 .computers-img {
@@ -373,32 +379,42 @@ header {
   font-weight: 700;
   font-size: 36px;
   line-height: 29px;
-  width: 100%;
-  color: #0c061a;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  color: #009900;
 }
 
 .computers-info{
-  display: flex;
   padding: 94px 0 94px 0;
 }
 
-.computer-img{
-  width: 700px;
+.computer-card{
+  display: flex;
+  background-color: #f5f4fa;
+  border-radius: 10px;
+  border: #0c061a 2px solid;
 }
 
-.computer-card{
-  margin-left: 100px;
-  margin-top: 100px;
+.computer-img{
+  width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  border: #0c061a 2px solid;
 }
 
 .computer-name{
-  font-size: 51px;
+font-size: 34px;
+margin: 20px;
 }
 
 .computer-price{
-  font-size: 67px;
+  font-size: 52px;
   font-weight: 700;
-  margin-top: 50px;
+  margin: 20px;
+  color: #009900;
+  border: #009900 2px solid;
+  border-radius: 10px;
+  width: 217px;
+}
+
+.computer-img:hover{
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
 }
