@@ -26,6 +26,22 @@ header {
   border: transparent solid;
 }
 
+.warning {
+  padding: 200px 0 200px 0;
+}
+
+.warning-img {
+  width: 153px;
+  margin-left: 475px;
+}
+
+.warning-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
 .main-pages {
   border: solid 1px #ececec;
 }
@@ -283,12 +299,12 @@ header {
   margin-left: 24px;
 }
 
-.computers {
+.products {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.computers-title {
+.products-title {
   margin-bottom: 30px;
   text-align: center;
   margin-left: auto;
@@ -302,36 +318,37 @@ header {
   width: 696px;
 }
 
-.computers-list {
+.products-list {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
 }
 
-.computers-item {
+.products-item {
   border: solid 2px #ececec;
   border-radius: 10px;
 }
 
-.computers-item:hover {
+.products-item:hover {
   border: solid 2px #0c061a;
   transition: all 0.5s ease-in 0s;
 }
 
-.computers-img {
+.products-img {
   width: 250px;
   height: auto;
   margin-top: 5px;
   margin-bottom: 20px;
 }
 
-.computers-name {
+.products-name {
   color: #212121;
   font-size: 16px;
   margin-left: 8px;
+  text-transform: uppercase;
 }
 
-.computers-price {
+.products-price {
   margin-top: 20px;
   margin-left: 8px;
   margin-bottom: 10px;
@@ -341,30 +358,31 @@ header {
   color: #009900;
 }
 
-.computers-info{
+.products-info{
   padding: 94px 0 94px 0;
 }
 
-.computer-card{
+.product-card{
   display: flex;
   background-color: #f5f4fa;
   border-radius: 10px;
   border: #0c061a 2px solid;
 }
 
-.computer-img{
+.product-img{
   width: 400px;
   margin: 10px;
   border-radius: 10px;
   border: #0c061a 2px solid;
 }
 
-.computer-name{
+.product-name{
 font-size: 34px;
 margin: 20px;
+text-transform: uppercase;
 }
 
-.computer-price{
+.product-price{
   font-size: 52px;
   font-weight: 700;
   margin: 20px;
@@ -374,6 +392,6 @@ margin: 20px;
   width: 217px;
 }
 
-.computer-img:hover{
+.product-img:hover{
   box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
 }
