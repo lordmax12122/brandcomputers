@@ -60,7 +60,7 @@ header {
 
 .main-pages {
   color: var(--title-color);
-}
+} 
 
 .main-pages-list {
   display: flex;
@@ -182,7 +182,6 @@ header {
 }
 
 .team-list {
-  display: flex;
   align-items: center;
   gap: 30px;
   display: flex;
@@ -326,14 +325,18 @@ header {
 }
 
 .products-list {
+  align-items: center;
+  gap: 30px;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  justify-content: center;
 }
 
 .products-item {
   border: solid 2px #ececec;
   border-radius: 10px;
+  width: 256px;
+  height: 380px;
 }
 
 .products-item:hover {
