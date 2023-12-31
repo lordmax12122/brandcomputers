@@ -419,3 +419,34 @@ color: #757575;
   width: 217px;
 }
 
+
+.interesting-card{
+background-color: #ececec;
+margin: 10px;
+border: #0c061a 2px solid;
+border-radius: 10px;
+text-align: center;
+margin-left: 160px;
+}
+
+.interesting-subtitle {
+  background-color: #ffffff;
+  color: #0c061a;
+  margin: 20px 60px;
+  padding: 6px 22px 6px 22px;
+  border-radius: 10px;
+}
+
+.interesting-subtitle:hover {
+  transition: ease-out 0.5s;
+  color: white;
+  background-color: #04cc04;
+  border: none;
+}
+
+.interesting-img{
+  width: 220px;
+  border: solid 2px #0c061a;
+  border-radius: 10px;
+  margin-top: 20px;
+}
