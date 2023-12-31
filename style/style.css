@@ -45,7 +45,7 @@ header {
 }
 
 .main-pages-logo {
-  color: var(--accent-color);
+  color: #04cc04;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -63,9 +63,9 @@ header {
 }
 
 .footer-pages-logo {
-  color: var(--accent-color);
+  color: #04cc04;
   font-family: Raleway;
-  font-size: 26px;
+  font-size: 34px;
   font-weight: 1.38;
   line-height: normal;
   letter-spacing: 0.78px;
@@ -80,7 +80,7 @@ header {
 }
 
 .main-pages-link:hover {
-  color: var(--accent-color);
+  color: #04cc04;
 }
 
 .contacts-list {
@@ -106,17 +106,15 @@ header {
 }
 
 .contacts-malito:hover {
-  color: var(--accent-color);
+  color: #04cc04;
 }
 
 .contacts-tel:hover {
-  color: var(--accent-color);
+  color: #04cc04;
 }
 
-
-
 .effective-choices-section {
-  background-image: url(../images/big-office-with-wooden-table.jpg);
+  background-color: #2f303a;
   padding-bottom: 200px;
   padding-top: 200px;
 }
@@ -141,7 +139,7 @@ header {
   border: none;
   border-radius: 4px;
   color: var(--title-color);
-  background-color: #2196f3;
+  background-color: #04cc04;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -170,8 +168,14 @@ header {
 }
 
 .team-item {
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 10px;
+  border: solid black;
   background: #fff;
+}
+
+.team-item:hover {
+  background-color: #dadada;
+  transition: ease-in 0.5s;
 }
 
 .team-img {
@@ -179,6 +183,7 @@ header {
   height: 260px;
   flex-shrink: 0;
   margin-bottom: 30px;
+  margin: 5px;
 }
 
 .team-title {
@@ -198,12 +203,6 @@ header {
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.48px;
-}
-
-.team-subtitle:hover {
-  color: #009900;
-  cursor: pointer;
-  transition: 0.5s ease-out 100ms
 }
 
 .team-description {
@@ -239,48 +238,8 @@ header {
 
 .footer-pages {
   background: #2f303a;
-  padding-bottom: 60px;
-  padding-top: 60px;
-}
-
-.button-list {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-}
-
-.button {
-  color: var(--title-color);
-  padding-top: 94px;
-  padding-bottom: 50px;
-}
-
-.button-a {
-  border: none;
-  border-radius: 4px;
-  color: #212121;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  /* 162.5% */
-  letter-spacing: 0.48px;
-  padding: 6px 22px 6px 22px;
-}
-
-.button-a:hover {
-  color: #fff;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  /* 162.5% */
-  letter-spacing: 0.48px;
-  background-color: var(--accent-color);
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .portfolio {
@@ -409,8 +368,8 @@ margin: 20px;
   font-size: 52px;
   font-weight: 700;
   margin: 20px;
-  color: #009900;
-  border: #009900 2px solid;
+  color: #04cc04;
+  border: #04cc04 2px solid;
   border-radius: 10px;
   width: 217px;
 }
