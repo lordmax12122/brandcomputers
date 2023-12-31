@@ -348,7 +348,13 @@ header {
   width: 250px;
   height: auto;
   margin-top: 5px;
-  margin-bottom: 20px;
+  height: 200px;
+}
+
+.products-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px 0 0;
 }
 
 .products-name {
