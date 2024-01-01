@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="./style/reset.css" />
   <link rel="stylesheet" href="./style/style.css" />
 </head>
@@ -44,17 +45,46 @@
     </div>
   </header>
   <main>
-    <section class="warning">
+    <section class="carousel-section">
       <div class="container">
-        <div class="warning-img-div" >
-        <img src="./images/Tpdkdesign.net-Refresh-Cl-Symbols-Critical.256.png" class="warning-img" alt="">
-      </div>
-        <h1 class="warning-text">
-          Тут поки що нічого немає...
-        </h1>
-        <h1 class="warning-text">
-          Ми працюємо над цим, будь ласка очікуйте
-        </h1>
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block " src="./images/best_gaming_pc_primary.jpg" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Новинка</h5>
+                <p>Комп'ютер HP</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block " src="./images/komp.jpg" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Новинка</h5>
+                <p>Комп'ютер Dell</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block " src="./images/editor_1598430824939898_0.jpg" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Новинка</h5>
+                <p>Монітор Acer</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
     </section>
     <section class="team-section">
@@ -142,6 +172,9 @@
       </ul>
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>

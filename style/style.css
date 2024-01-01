@@ -26,6 +26,19 @@ header {
   border: transparent solid;
 }
 
+.d-block {
+  width: 100%;
+  opacity: 0.7;
+}
+
+.carousel-item {
+  height: 32rem;
+  background: #777;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
 .warning {
   padding: 200px 0 200px 0;
 }
