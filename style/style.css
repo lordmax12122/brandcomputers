@@ -41,7 +41,7 @@ header {
 }
 
 .carousel-start {
-  text-align: end;
+  text-align: start;
 }
 
 .carousel-end {
@@ -451,6 +451,7 @@ color: #757575;
   font-size: 52px;
   font-weight: 700;
   margin: 9px 20px 9px 20px;
+  text-align: center;
   color: #04cc04;
   border: #04cc04 2px solid;
   border-radius: 10px;
@@ -459,12 +460,13 @@ color: #757575;
 
 
 .interesting-card{
+  height: 400px;
 background-color: #ececec;
 margin: 10px;
 border: #0c061a 2px solid;
 border-radius: 10px;
 text-align: center;
-margin-left: 160px;
+margin-left: auto;
 }
 
 .interesting-subtitle {
