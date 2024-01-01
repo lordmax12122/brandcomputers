@@ -464,7 +464,7 @@ margin-left: 160px;
   margin-top: 20px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   body  {
     width: fit-content;
   }
