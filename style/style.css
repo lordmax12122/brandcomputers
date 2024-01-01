@@ -470,12 +470,3 @@ margin-left: 160px;
     width: fit-content;
   }
 }
-
-@media screen and (max-width: 1500px) {
-  body  {
-    width: fit-content;
-  }
-  .index-body {
-    width: 1007px;
-  }
-}
