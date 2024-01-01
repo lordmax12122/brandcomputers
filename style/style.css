@@ -40,6 +40,24 @@ header {
   background-size: cover;
 }
 
+.carousel-start {
+  text-align: end;
+}
+
+.carousel-end {
+  text-align: end;
+}
+
+.carousel-subtitle {
+  font-size: 2.5rem;
+}
+
+.carousel-description {
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  color: #b1b1b1;
+}
+
 .warning {
   padding: 200px 0 200px 0;
 }
@@ -175,9 +193,8 @@ header {
 .effective-choices-button {
   border: none;
   border-radius: 4px;
-  color: var(--title-color);
-  background-color: #04cc04;
-  display: block;
+  color: #0c061a;
+  background-color: #ffffff;
   margin-left: auto;
   margin-right: auto;
   width: 216px;
@@ -187,6 +204,13 @@ header {
   line-height: 30px;
   /* 187.5% */
   letter-spacing: 0.96px;
+  text-align: center;
+}
+
+.effective-choices-button:hover {
+  color: var(--title-color);
+  background-color: #04cc04;
+  transition: ease-in .6s;
 }
 
 .team-section {
