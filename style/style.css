@@ -450,3 +450,9 @@ margin-left: 160px;
   border-radius: 10px;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 2000px) {
+  body  {
+    width: fit-content;
+  }
+}
