@@ -465,15 +465,8 @@ margin-left: 160px;
   margin-top: 20px;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 500px) {
   body  {
-    width: fit-content;
-    height: fit-content;
-  }
-}
-
-@media screen and (max-width: 1500px) {
-  body  {
-    width: auto;
+    width: max-content;
   }
 }
