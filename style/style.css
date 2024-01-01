@@ -467,6 +467,6 @@ margin-left: 160px;
 
 @media screen and (max-width: 800px) {
   body  {
-    width: fit-content;
+    width: 1200px;
   }
 }
