@@ -234,8 +234,8 @@ header {
 }
 
 .team-item:hover {
-  background-color: #dadada;
-  transition: ease-in 0.5s;
+  transition: ease-in 0.1s;
+  transform: scale(1.1,1.1);
 }
 
 .team-img {
